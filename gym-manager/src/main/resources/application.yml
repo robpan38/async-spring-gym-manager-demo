@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    url: jdbc:postgresql://localhost:5432/gymmanagerdb
+    user: gymmgruser
+    password: gymmgrpass
+    enabled: true
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/gymmanagerdb
+    username: gymmgruser
+    password: gymmgrpass

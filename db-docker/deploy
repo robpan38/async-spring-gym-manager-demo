@@ -1,0 +1,3 @@
+# lazy way to deploy db, should be docker compose with volumes to assure data preservations between runs
+
+docker run --name gym-manager-db-container -e POSTGRES_PASSWORD=gymmgrpass -e POSTGRES_USER=gymmgruser -e POSTGRES_DB=gymmanagerdb -p 5432:5432 -d postgres
